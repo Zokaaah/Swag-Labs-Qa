@@ -1,5 +1,7 @@
+
 describe('template spec', () => {
   it('passes', () => {
+
 
     //1.Acessar o site Swag Labs.
     cy.visit('https://www.saucedemo.com/')
