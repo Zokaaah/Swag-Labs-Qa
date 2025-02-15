@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "cypress": "^14.0.0"
+    "cypress": "^14.0.0",
+    "faker": "^6.6.6"
   }
 }
