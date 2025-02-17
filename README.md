@@ -5,7 +5,6 @@
 
 ![swaglabs](https://github.com/user-attachments/assets/33233821-d989-42fa-b5e5-46efe8a9eb7a)
 
-Aqui está uma breve descrição que você pode incluir no `README` do seu projeto, listando tudo o que foi testado na automação com Cypress no sistema da Swag Labs:
 
 ---
 
