@@ -4,14 +4,16 @@
   "description": "---",
   "main": "app.js",
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.40.2",
-    "allure-commandline": "^2.32.2",
-    "cypress": "^14.0.0",
-    "faker": "^6.6.6"
+    "cypress": "^14.0.3",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "faker": "^6.6.6",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js",
+    "start": "node app.js",
     "allure:generate": "npx allure generate allure-results --clean -o allure-report",
     "allure:open": "npx allure open allure-report",
     "allure:serve": "npx allure serve allure-results"

@@ -8,6 +8,7 @@ describe("template spec", () => {
     cy.get('[data-test="error"]').contains(
       "Epic sadface: Username and password do not match any user in this service"
     );
+    cy.screenshot('Login Invalido - finalizado - mensagem exibida corretamente')
   });
   it("Login válido", () => {
     cy.visit("https://www.saucedemo.com/v1/index.html");
@@ -18,5 +19,6 @@ describe("template spec", () => {
     cy.get("#login-button").click();
 
     cy.get(".product_label").contains("Products");
+    // cy.screenshot('Login Valido')
   });
 });
